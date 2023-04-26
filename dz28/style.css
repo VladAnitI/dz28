@@ -1,0 +1,62 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 222, 161);
+}
+
+.app {
+  text-align: center;
+  padding: 10px;
+
+}
+
+.endClass {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+}
+
+.text1defoult {
+  background: blue;
+}
+
+.text2defoult {
+  background: rgb(255, 157, 0);
+}
+
+.text3defoult {
+  background: rgb(255, 0, 179);
+}
+
+.text1new {
+  background: red;
+}
+
+.text2new {
+  background: rgb(0, 255, 213);
+}
+
+.text3new {
+  background: rgb(132, 255, 0);
+}
+
+.text1new,
+.text1defoult,
+.text2new,
+.text2defoult,
+.text3new,
+.text3defoult {
+  margin: 10px;
+  cursor: default;
+  padding: 60px 0;
+  border-radius: 10px;
+}
+
+.text2new,
+.text2defoult,
+.text3new,
+.text3defoult {
+  padding: 200px;
+}
